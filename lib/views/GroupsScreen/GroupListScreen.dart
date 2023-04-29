@@ -15,6 +15,7 @@ class GroupListScreen extends StatefulWidget{
   String getId(String s){
     return s.substring(0,s.indexOf('_'));
   }
+
   String getName(String s){
     return s.substring(0,s.indexOf('_')+1);
   }
